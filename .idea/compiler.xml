@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mail-starter-demo" />
+        <module name="log-starter-demo" />
+        <module name="swagger-starter-demo" />
+        <module name="datahub-starter-demo" />
+        <module name="druidmonitor-starter-demo" />
+        <module name="web-starter-demo" />
+        <module name="starters-demo" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="datahub-starter-demo" options="-parameters" />
+      <module name="druidmonitor-starter-demo" options="-parameters" />
+      <module name="log-starter-demo" options="-parameters" />
+      <module name="mail-starter-demo" options="-parameters" />
+      <module name="swagger-starter-demo" options="-parameters" />
+      <module name="web-starter-demo" options="-parameters" />
+    </option>
+  </component>
+</project>
